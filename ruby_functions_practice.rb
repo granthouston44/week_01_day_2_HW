@@ -5,3 +5,7 @@ end
 def add(number_one, number_two)
   return number_one.to_i + number_two.to_i
 end
+
+def subtract(number_one, number_two)
+  return number_one.to_i - number_two.to_i
+end
