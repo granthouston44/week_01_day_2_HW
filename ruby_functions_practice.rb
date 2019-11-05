@@ -96,3 +96,8 @@ end
 def volume_of_cube(length, breadth, height)
   return length * breadth * height
 end
+
+def volume_of_sphere(radius)
+  radius.to_f
+  return (4/3) * (3.141) * (radius**3)
+end
