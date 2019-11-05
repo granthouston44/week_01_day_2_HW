@@ -92,3 +92,7 @@ else
     return "Not a valid month"
   end
 end
+
+def volume_of_cube(length, breadth, height)
+  return length * breadth * height
+end
