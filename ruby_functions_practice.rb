@@ -93,8 +93,8 @@ else
   end
 end
 
-def volume_of_cube(length, breadth, height)
-  return length * breadth * height
+def volume_of_cube(length)
+  return length.to_i**3
 end
 
 def volume_of_sphere(radius)
