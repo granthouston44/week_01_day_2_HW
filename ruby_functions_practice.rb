@@ -32,65 +32,67 @@ def add_string_as_number(number_one, number_two)
 end
 
 def number_to_full_month_name(month_number)
-  case month_number
+  month_name = case month_number
   when 1
-      return "January"
+       "January"
   when 2
-    return "February"
+    "February"
   when 3
-    return "March"
+   "March"
   when 4
-    return "April"
+     "April"
   when 5
-    return "May"
+     "May"
   when 6
-    return "June"
+    "June"
   when 7
-    return "July"
+     "July"
   when 8
-    return "August"
+     "August"
   when 9
-    return "September"
+     "September"
   when 10
-    return "October"
+     "October"
   when 11
-    return "November"
+   "November"
   when 12
-    return "December"
+    "December"
   else
-    return "Not a valid month"
+    "Not a valid month"
   end
+  return month_name
 end
 
 def number_to_short_month_name(month_number)
-  case month_number
+  month_name = case month_number
   when 1
-    return "Jan"
+    "Jan"
   when 2
-    return "Feb"
+    "Feb"
   when 3
-    return "Mar"
+   "Mar"
   when 4
-    return "Apr"
+     "Apr"
   when 5
-    return "May"
+     "May"
   when 6
-    return "Jun"
+    "Jun"
   when 7
-    return "Jul"
+     "Jul"
   when 8
-    return "Aug"
+     "Aug"
   when 9
-    return "Sep"
+     "Sep"
   when 10
-    return "Oct"
+     "Oct"
   when 11
-    return "Nov"
+   "Nov"
   when 12
-    return "Dec"
+    "Dec"
   else
-    return "Not a valid month"
+    "Not a valid month"
   end
+  return month_name
 end
 
 def volume_of_cube(length)
